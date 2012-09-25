@@ -10,7 +10,7 @@
 
 ###Tugas Praktikum Sesi 1###
 
-##Latihan : Membuat Frame, Dialogbox dan Panel Pada Java##
+###Latihan : Membuat Frame, Dialogbox dan Panel Pada Java###
 
 Langkah – Langkah Pembuatan Frame :
 1. Langkah pertama adalah membuat struktur folder sebagai berikut :
@@ -21,7 +21,7 @@ Langkah – Langkah Pembuatan Frame :
 
 ```mvn archetype:create -DgroupId=com.artivisi.project -DartifactId=my-app```
 
-3. Buat file `BelajarFrame.java` pada src\main\java\com\artivisi\project. 
+3. Buat file `HaloSwing.java` pada src\main\java\com\artivisi\project. 
 dengan isi sebagai berikut :
 
 ```java
