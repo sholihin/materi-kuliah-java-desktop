@@ -12,9 +12,9 @@
 
 ###Latihan : Membuat Frame, Dialogbox dan Panel Pada Java###
 
-* Langkah – Langkah Pembuatan Frame :
+Langkah – Langkah Pembuatan Frame :
 
-1. Langkah pertama adalah membuat struktur folder sebagai berikut :
+1. Langkah pertama adalah membuat struktur folder sebagai berikut:
 
 ![Struktur Folder Project](./images/struktur.png)
 
