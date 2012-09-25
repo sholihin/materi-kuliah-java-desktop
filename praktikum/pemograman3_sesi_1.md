@@ -14,15 +14,15 @@
 
 Langkah – Langkah Pembuatan Frame :
 
-1. Langkah pertama adalah membuat struktur folder sebagai berikut :
+* Langkah pertama adalah membuat struktur folder sebagai berikut :
 
 ![Struktur Folder Project](./images/struktur.png)
 
-2. Buka cmd (Command Prompt) dan ketikkan perintah ini :
+* Buka cmd (Command Prompt) dan ketikkan perintah ini :
 
 ```mvn archetype:create -DgroupId=com.artivisi.project -DartifactId=my-app```
 
-3. Buat file `HaloSwing.java` pada src\main\java\com\artivisi\project. 
+* Buat file `HaloSwing.java` pada src\main\java\com\artivisi\project. 
 dengan isi sebagai berikut :
 
 ```java
@@ -58,13 +58,13 @@ public class HaloSwing {
 
 
 
-3.	Jika sudah maka kita compile file HaloSwing.java dengan perintah berikut :
+* Jika sudah maka kita compile file HaloSwing.java dengan perintah berikut :
 
 ```
 mvn exec:java -Dexec.mainClass="com.artivisi.project.HaloSwing"
 ```
 
-4. Jika berhasil akan muncul seperti gambar berikut :
+* Jika berhasil akan muncul seperti gambar berikut :
 
 ![Struktur Folder Project](./images/hasil1.png)
 ![Struktur Folder Project](./images/hasil2.png)
