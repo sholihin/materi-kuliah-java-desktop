@@ -1,18 +1,18 @@
-###Subject :###
+### Subject : ###
 - Membuat Frame
 - Membuat Dialogbox
 - Membuat Panel
 
-###Objective :###
+### Objective : ###
 - Memahami Pembuatan Frame Pada Java
 - Memahami Pembuatan Dialogbox Pada Java
 - Memahami Pembuatan Panel Pada Java
 
-###Tugas Praktikum Sesi 1###
+### Tugas Praktikum Sesi 1 ###
 
-###Latihan : Membuat Frame, Dialogbox dan Panel Pada Java###
+### Latihan : Membuat Frame, Dialogbox dan Panel Pada Java ###
 
-Langkah – Langkah Pembuatan Frame :
+Langkah-Langkah Pembuatan Frame :
 
 1. Langkah pertama adalah membuat struktur folder sebagai berikut:
 
@@ -20,12 +20,15 @@ Langkah – Langkah Pembuatan Frame :
 
 2. Buka cmd (Command Prompt) dan ketikkan perintah ini :
 
-```mvn archetype:create -DgroupId=com.artivisi.project -DartifactId=my-app```
+```
+mvn archetype:create -DgroupId=com.artivisi.project -DartifactId=my-app
+```
 
-3. Buat file `HaloSwing.java` pada src\main\java\com\artivisi\project. 
+3. Buat file `HaloSwing.java` pada `src\main\java\com\artivisi\project`
 dengan isi sebagai berikut :
 
 ```java
+
 package com.artivisi.project;
 
 import javax.swing.JFrame;
@@ -54,14 +57,15 @@ public class HaloSwing {
 		
 	}
 }
-```
-
-
-
-4. Jika sudah maka kita compile file HaloSwing.java dengan perintah berikut :
 
 ```
-mvn exec:java -Dexec.mainClass="com.artivisi.project.HaloSwing"
+
+
+
+4. Jika sudah maka kita compile file `HaloSwing.java` dengan perintah berikut :
+
+```
+mvn exec:java -Dexec.mainClass=com.artivisi.project.HaloSwing
 ```
 
 5. Jika berhasil akan muncul seperti gambar berikut :
