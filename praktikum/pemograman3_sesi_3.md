@@ -21,6 +21,7 @@ Langkah-Langkah Pembuatan :
 mvn archetype:create -DgroupId=com.artivisi.project -DartifactId=my-app
 
 ```
+
 2. Jika berhasil akan menghasilkan struktur folder sebagai berikut:
 
 ![Struktur Folder Project](./images/struktur.png)
@@ -32,6 +33,7 @@ mvn archetype:create -DgroupId=com.artivisi.project -DartifactId=my-app
 mvn clean install
 
 ```
+
 4. Jika instalasi ` apache maven ` , ` jdk ` dan setup ` JAVA_HOME ` telah benar maka akan tampil seperti dibawah ini :
 
 ```cmd
@@ -115,8 +117,6 @@ public class DemoFlowLayout {
 }
 
 ```
-
-
 
 4. Jika sudah maka kita compile dan jalankan file `DemoFlowLayout.java` dengan perintah berikut :
 
